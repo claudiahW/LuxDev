@@ -121,9 +121,46 @@ Information can be passed into functions as arguments.
 
 ## Q2. List all Python operators and their uses.
 
+There are 7 categories of python operators.Namely:
+
+1. Arithmetic operators
+   Arithmetic operators are used with numeric values to perform common mathematical operations they include, ( + , - , \* , / , % , \*\* , // )
+
+2. Comparison operators
+   Comparison operators are used to compare two values: e.g:
+
+```
+x != y
+```
+
+3. Assignment operators
+
+Assignment operators are used to assign values to variables: e.g
+
+```
+x = y
+```
+
+4. Logical operators
+
+Logical operators are used to combine conditional statements:
+
+e.g:
+```
+x < 5 and x < 10
+```
+5. Membership operators
+6. Identity operators
+7. Bitwise operators
+
 ## Q3. Write a function that returns the performance category of every agent and the resulting column to be added to the original dataframe.
 
+
+
 ## Q4. Construct a class (Car) in Python with attributes (make, model, and year of manufacture). The second function should be called describe. The examples to use are Honda Civic 2021 and Toyota Camry 2020.
+
+
+
 
 **With regards to question 3:**
 

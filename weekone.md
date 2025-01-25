@@ -146,21 +146,20 @@ x = y
 Logical operators are used to combine conditional statements:
 
 e.g:
+
 ```
 x < 5 and x < 10
 ```
+
 5. Membership operators
 6. Identity operators
 7. Bitwise operators
 
 ## Q3. Write a function that returns the performance category of every agent and the resulting column to be added to the original dataframe.
 
-
-
 ## Q4. Construct a class (Car) in Python with attributes (make, model, and year of manufacture). The second function should be called describe. The examples to use are Honda Civic 2021 and Toyota Camry 2020.
 
-
-
+Done in _assignment.py_ file
 
 **With regards to question 3:**
 
@@ -177,7 +176,7 @@ x < 5 and x < 10
 
 ``
 
-# Step 3: Define performance categories based on quartiles as an example
+3. Define performance categories based on quartiles as an example
 
 ```
 performance_quartiles = df['performance_score'].quantile([0.25, 0.5, 0.75]).to_dict()
@@ -185,3 +184,36 @@ performance_quartiles = df['performance_score'].quantile([0.25, 0.5, 0.75]).to_d
 ```
 
 **_The function you are to write is step 4_**
+
+# THURSDAY - 23/01/2025
+
+## Q1. Write the formula of the line of best fit and state its scientific name.
+
+The line of best fit equation is _y=m(x) + b_ and its scientific name is _regression line_
+
+## Q2. Write the two formulas of median with regards to grouped and ungrouped data.
+
+- grouped data
+  The formula for calculating the median of grouped data is: Median = l + [(n/2 - c) / f] x h, where:
+  l: is the lower limit of the median class
+  n: is the total number of observations
+  c: is the cumulative frequency of the class preceding the median class
+  f: is the frequency of the median class
+  h: is the class width (or size of each class)
+
+- ungrouped data
+  The median formula for ungrouped data is: If the number of observations (n) is odd, the median is the ((n+1)/2)th term; if n is even, the median is the average of the (n/2)th term and the (n/2+1)th term; meaning you first need to arrange the data in ascending order, then identify the middle value (or the average of the two middle values if n is even).
+
+## Q3. Define homoscedasticity and why it's important in analysis.
+
+Homoscedasticity is a statistical assumption that states that the variance of a random variable is the same across all values. It's also known as homogeneity of variance.
+
+4. In the shared data, plot a histogram showing the ages of the policy holders(hint: use the date of birth column to come up with the age)
+
+5. What is the difference between a boxplot and a countplot?
+
+A boxplot shows the relationship between a continuous variable and a categorical variable, while a countplot shows the relationship between two categorical variables.
+
+6. What distribution usually has the same mean, median, and mode?
+
+When the data is perfectly normal, the mean, median and mode are identical.

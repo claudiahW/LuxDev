@@ -12,10 +12,25 @@ Transformers are neural networks used in Chatgpt capable of processing enormous 
 
 ## Q2. List all the subsets of AI and provide examples of each and how the different subsets mimic human senses/intelligence.
 
-## Q3. Learn about the Pyforest library 
+#### SUBSETS OF AI
 
-## Q4. Research on data structures and algorithms - that would be our next class
+1. Machine Learning
+  Machine learning focuses on developing algorithms that enable computers to learn from data and make predictions or decisions without being explicitly programmed. It encompasses various techniques such as supervised learning, unsupervised learning, and reinforcement learning.
+
+2. Deep Learning 
+  Deep learning is a subset of machine learning that involves the use of artificial neural networks with multiple layers  
+  
+
+3. Artifical Neural Networks
+   ANNs are computational models inspired by the structure and function of the human brain. They are used in various AI applications, including pattern recognition, speech recognition, and predictive modeling.
+
+4. Natural Language Processing
+  NLP involves the interaction between computers and human language. It includes tasks such as speech recognition, text understanding, sentiment analysis, and language translation.
 
 
+## Q3. Research on data structures and algorithms - that would be our next class
+
+
+ Data structures are “containers” that organize and group data according to type.The basic Python data structures include list, set, tuples, and dictionary. 
 
 

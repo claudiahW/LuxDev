@@ -59,6 +59,7 @@ thisdict = {
   "year": 1964
 }
 ```
+
 # TUESDAY - 21/01/2025
 
 ## Q1.What is the difference between while and (do...while)loops
@@ -67,7 +68,7 @@ With the while loop we can execute a set of statements as long as a condition is
 
 In some programming languages, a "do-while" loop ensures that the code within the loop executes at least once before checking the condition.A practical use of do-while loop in python is User Input Validation.
 
-## Q2. Research and learn about nested loops 
+## Q2. Research and learn about nested loops
 
 Nested loops mean loops inside a loop. For example, while loop inside the for loop, for loop inside the for loop, etc.
 
@@ -88,14 +89,13 @@ return is a keyword. When a return statement is reached, Python will stop the ex
 
 Using return changes the flow of the program. Using print does not.
 
-
 ## Q4. Learn about functions, files(how to read and write on them), classes
 
 A function is a block of code which only runs when it is called.You can pass data, known as parameters, into a function.A function can return data as a result.
 
 In Python a function is defined using the def keyword:
 
-e.g. 
+e.g.
 
 ```
 def my_function():
@@ -113,3 +113,38 @@ my_function()
 
 Information can be passed into functions as arguments.
 
+## Q5. Visualize a cvs file using pandas dataframe
+
+# WEDNESDAY - 22/01/2025
+
+## Q1. In the data shared yesterday, sort the agent names in alphabetical order (A-Z)
+
+## Q2. List all Python operators and their uses.
+
+## Q3. Write a function that returns the performance category of every agent and the resulting column to be added to the original dataframe.
+
+## Q4. Construct a class (Car) in Python with attributes (make, model, and year of manufacture). The second function should be called describe. The examples to use are Honda Civic 2021 and Toyota Camry 2020.
+
+**With regards to question 3:**
+
+1. Calculate performance scores (Premium and agent name)
+
+```
+  performance_scores = df.groupby('Agent_name')['Annual_Premium'].sum().reset_index(name='performance_score')
+
+```
+
+2. Merge the performance scores back into the original DataFrame
+   ``
+   df = df.merge(performance_scores, on='Agent_name')
+
+``
+
+# Step 3: Define performance categories based on quartiles as an example
+
+```
+performance_quartiles = df['performance_score'].quantile([0.25, 0.5, 0.75]).to_dict()
+
+```
+
+**_The function you are to write is step 4_**

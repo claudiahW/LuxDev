@@ -30,7 +30,13 @@ Data structures are “containers” that organize and group data according to t
 
 Lists are used to store multiple items in a single variable and are created using square brackets.
 
-Sets are used to store multiple items in a single variable.
+Sets are used to store multiple items in a single variable and are written with curly brackets.
+
+```
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+
+```
 
 Tuples are used to store multiple items in a single variable and are written with round brackets.
 

@@ -15,14 +15,34 @@ Transformers are neural networks used in Chatgpt capable of processing enormous 
 1. Machine Learning
    Machine learning focuses on developing algorithms that enable computers to learn from data and make predictions or decisions without being explicitly programmed. It encompasses various techniques such as supervised learning, unsupervised learning, and reinforcement learning.
 
+   an example of ML use is in voice to text.
+
+   It mimics listening in humans.
+
 2. Deep Learning
-   Deep learning is a subset of machine learning that involves the use of artificial neural networks with multiple layers
+   Deep learning is a subset of machine learning that involves the use of artificial neural networks with multiple layers.
+
+   an example of deep learning in use is image recognition technology e.g. in vehilces.
+
+   It mimics the way neurons in the human brain process and learn information.
+
+   it mimics vision in humans.
 
 3. Artifical Neural Networks
    ANNs are computational models inspired by the structure and function of the human brain. They are used in various AI applications, including pattern recognition, speech recognition, and predictive modeling.
 
+   An example of Artificial Neural Networks in use is Medical diagnosis by medical image classification.
+
+   They mimic the structure and function of the human brain.
+
 4. Natural Language Processing
    NLP involves the interaction between computers and human language. It includes tasks such as speech recognition, text understanding, sentiment analysis, and language translation.
+
+   An example of Natural Language Processing AI in use a is a voice assistant like Siri or Alexa.
+
+   They mimic human conversation and language patterns.
+
+   It mimics speaking in humans.
 
 ## Q3. Research on data structures and algorithms
 
@@ -50,7 +70,7 @@ mytuple = ("apple", "banana", "cherry")
 
 ```
 
-Dictionaries are used to store data values in key:value pairs.
+4. Dictionaries are used to store data values in key:value pairs.
 
 ```
 thisdict = {
@@ -113,7 +133,7 @@ my_function()
 
 Information can be passed into functions as arguments.
 
-## Q5. Visualize a cvs file using pandas dataframe
+## Q5. Visualize a cvs file using pandas dataframe  
 
 # WEDNESDAY - 22/01/2025
 

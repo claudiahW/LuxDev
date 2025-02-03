@@ -133,7 +133,23 @@ my_function()
 
 Information can be passed into functions as arguments.
 
+
+To read a CSV file, we use  .read_csv() after ensuring we have imported pandas
+
+An example of this code is 
+
+```
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+print(df)
+
+```
+
 ## Q5. Visualize a cvs file using pandas dataframe  
+
+in day2 file
 
 # WEDNESDAY - 22/01/2025
 

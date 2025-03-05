@@ -1,14 +1,27 @@
-class Car:
-    def __init__(self, make, model, year_of_manufacture):
-        self.make = make
-        self.model = model
-        self.year_of_manufacture = year_of_manufacture
+import threading 
+import time
 
-    def describe(self):
-       print(f"This car is a {self.year_of_manufacture} {self.make}  {self.model} ")
+def walk_dog():
+    time.sleep(8)
+    print("Walking the dog...")
 
-car1 = Car("Honda","Civic",2021)
-car2 =Car("Toyota","Camry",2020)
+def take_out_trash():
+    time.sleep(2)
+    print("Taking out the trash...")
 
-car1.describe()
-car2.describe()
+def get_mail():
+    time.sleep(4)
+    print("Getting the mail...")
+
+chore1 = threading.Thread(target=walk_dog)
+chore1.start()
+
+chore2 = threading.Thread(target=take_out_trash)
+chore2.start()
+
+chore3 = threading.Thread(target=get_mail)
+chore3.start()
+
+chore1.join()
+chore2.join()
+chore3.join()
